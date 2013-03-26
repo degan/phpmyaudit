@@ -1,0 +1,26 @@
+0.6a 
+Moved web to mysqli like cli
+Cleanup
+*2013 php compatabiliy check.
+
+0.5a (Defcon Version) - July 7, 2004
+Added the Web Version
+Added Internal Timer
+Updated Stats
+Updated database scheme (for smaller db sizes, sacrificed minor performance)
+
+0.4a - June 28, 2004
+Bugfixes, minor updates
+
+0.3a - June 16, 2004
+Added Stats
+
+0.2a - May 28, 2004
+Added Multiple Hash (file) support
+Added Dictionary Removal
+
+0.1a - May 25, 2004
+Original Edition, Single hash only
+Dictionary Import
+
+$Id: CHANGELOG,v 1.1.1.1 2004/07/08 21:25:14 degan Exp $

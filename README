@@ -1,0 +1,79 @@
+This program is distributed freely, with NO WARRANTY (see the LICENSE file).
+This program is intended for LEGAL use.  Please do not use it otherwise.
+
+phpMyAudit
+MySQL Password Audit Suite supporting new (4.1+) and old hashes
+
+TOC
+---
+I) Requirements
+II) Installation
+III) Usage 
+IV) Files Included in the Distrobution
+
+I) Requirements
+---------------
+
+Tested on: 
+MacOSX 10.3 (panther) 
+MySQL MySQL 4.0.20-standard (mac binary from mysql.com)
+PHP 4.3.2 (mac default binary and mac default apache module)
+
+Ubuntu 12.04 LTS (2013 github prep)
+MySQL 5.5 Standard Package
+PHP 5.3 Standard Package
+
+II) Installation
+----------------
+quick and dirty...
+
+Shell
+-----
+1. "mysqladmin -u root -p create phpMyAudit" 
+2. "mysql -u root -p phpMyAudit < database.sql"  
+3. edit includes/config.inc.php
+3. verify the php location (default is /usr/bin/php, this may vary).  Change the #! where necessary (for all script files ending in .php, minus the index.php (sorry! this will change probably before Defcon)).
+4. "chmod +x *.php"  
+5. "./pmaImport.php dictionary_filename"
+
+Web (add-on)
+---
+1. setup the Shell
+2. "cp -r web/ apache_html_documents/phpMyAudit"
+3. edit includes/config.inc.php in the new phpMyAudit web directory.
+
+III) Usage 
+
+Shell
+-----
+1. "./phpMyAudit.php hash"
+2. "./pmaFile.php hashfile" (for a list of hashes, format is "username:hash")
+
+Web
+---
+1. enter a single hash, hit "Find"
+2. enter a list of hashes, hit "Find".  format is "username:hash".
+
+IV) Files Included in the Distrobution
+---------------------------------------
+/ (base dir)
+LICENSE - Copy of the GPL
+README - This File
+TODO - Updates, etc.
+phpMyAudit.php - Main program file, single hash
+pmaFile.php - Accepts a file, multiple hashes 
+pmaImport.php - Import a dictionary 
+pmaRemoveDictionary.php - Clear the dictionary out of the database
+
+/includes
+config.inc.php
+functions.inc.php
+
+/web
+index.php - phpMyAudit for the web.
+
+/web/includes
+config.inc.php
+functions.inc.php
+
+$Id: README,v 1.2 2004/07/08 23:40:51 degan Exp $
