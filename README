@@ -1,9 +1,9 @@
-This software written in 2004 has been verified to still perform correctly, 
+This software (originaly written in 2004) has been verified to still perform as intended, 
 however, it isn't likely the fastest method for accomplishing its task.
 People have already forked this code years ago, but this is the last release
-I had made public.
+I had ever made public.
 
-Below is the original README file from 2004 with some slight modifications. 
+Below is the original README file from 2004 with some slight modifications re: Requirements. 
 ============================================================================
 This program is distributed freely, with NO WARRANTY (see the LICENSE file).
 This program is intended for LEGAL use.  Please do not use it otherwise.
@@ -54,7 +54,7 @@ III) Usage
 Shell
 -----
 1. "./phpMyAudit.php hash"
-2. "./pmaFile.php hashfile" (for a list of hashes, format is "username:hash")
+2. "./pmaFile.php hashfile" (for a list of hashes, format is "user:hash")
 
 Web
 ---
