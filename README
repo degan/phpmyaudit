@@ -1,3 +1,10 @@
+This software written in 2004 has been verified to still perform correctly, 
+however, it isn't likely the fastest method for accomplishing its task.
+People have already forked this code years ago, but this is the last release
+I had made public.
+
+Below is the original README file from 2004 with some slight modifications. 
+============================================================================
 This program is distributed freely, with NO WARRANTY (see the LICENSE file).
 This program is intended for LEGAL use.  Please do not use it otherwise.
 
@@ -32,7 +39,7 @@ Shell
 1. "mysqladmin -u root -p create phpMyAudit" 
 2. "mysql -u root -p phpMyAudit < database.sql"  
 3. edit includes/config.inc.php
-3. verify the php location (default is /usr/bin/php, this may vary).  Change the #! where necessary (for all script files ending in .php, minus the index.php (sorry! this will change probably before Defcon)).
+3. verify the php location (default is /usr/bin/php, this may vary).  Change the #! where necessary (for all script files ending in .php, minus the index.php).
 4. "chmod +x *.php"  
 5. "./pmaImport.php dictionary_filename"
 
@@ -52,7 +59,7 @@ Shell
 Web
 ---
 1. enter a single hash, hit "Find"
-2. enter a list of hashes, hit "Find".  format is "username:hash".
+2. enter a list of hashes, hit "Find".  format is "user:hash".
 
 IV) Files Included in the Distrobution
 ---------------------------------------

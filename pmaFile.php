@@ -53,14 +53,14 @@ while(!feof($file)){
          $numTest = mysqli_num_rows($resTest);
          if($numTest){
             while($arrTest = mysqli_fetch_array($resTest, MYSQLI_ASSOC)){
-               printf("$arrFile[0]: $arrFile[1] - $arrTest[entry] (found)\n");
+               printf("%s: %s - $arrTest[entry] (found)\n", $arrFile[0], $arrFile[1]);
                $intFound += 1;
                if(strlen($arrTest["entry"]) > 8){
                   $intFastCant += 1;
                }
             }
          }  else {
-            printf("$arrFile[0]: $arrFile[1] - NOT FOUND\n");
+            printf("%s: %s - NOT FOUND\n", $arrFile[0], $arrFile[1]);
          }
    }
 }

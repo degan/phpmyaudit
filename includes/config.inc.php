@@ -18,7 +18,7 @@
 // $Id: config.inc.php,v 1.2 2004/07/08 21:32:10 degan Exp $
 
 //Open the Connection to the MySQL database
-$link = mysqli_connect("localhost", "user", "pass", "phpMyAudit");
+$link = mysqli_connect("host", "user", "pass", "phpMyAudit");
 
 //Check the connection
 if (!$link) {

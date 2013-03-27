@@ -1,7 +1,7 @@
 0.6a 
 Moved web to mysqli like cli
 Cleanup
-*2013 php compatabiliy check.
+*2013 php/mysql/ubuntu compatabiliy check.
 
 0.5a (Defcon Version) - July 7, 2004
 Added the Web Version

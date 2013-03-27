@@ -127,6 +127,7 @@ include_once("includes/functions.inc.php");
              <span class=bold>OR</span>
           <BR>
           <BR>
+            ex (user:hash)
             <FORM action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
             <TABLE cellspacing="0" cellpadding="0" border="0">
               <TR>

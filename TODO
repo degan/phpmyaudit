@@ -1,7 +1,11 @@
-Consolidate all shell scripts into one file.
+* Consolidate all shell scripts into one file.
 
-Web Find Bug on Last Entry for Multiples
+2010 
+    * Request for MD5 and SHA1 (looks like this might have been forked and
+    accomplished, but I can't find the code)
 
-2010 Request for MD5 and SHA1
+2013
+    * Web Find Bug on Last Entry for Multiples
+    * Tests, Config consolidation, etc. 
 
 $Id: TODO,v 1.2 2004/07/08 23:40:59 degan Exp $
