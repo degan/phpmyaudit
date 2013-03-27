@@ -16,7 +16,6 @@
 //You should have received a copy of the GNU General Public License
 //along with this program; if not, write to the Free Software
 //Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
-//$Id: pmaFile.php,v 1.2 2004/07/08 23:41:21 degan Exp $
 
 //Include the PMA Config
 include_once("includes/config.inc.php");

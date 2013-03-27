@@ -5,5 +5,3 @@ CREATE TABLE `dictionary` (
       PRIMARY KEY  (`hash`),
       UNIQUE KEY `entry` (`entry`)
       );
-
-#$Id: database.sql,v 1.2 2004/07/08 21:27:28 degan Exp $
